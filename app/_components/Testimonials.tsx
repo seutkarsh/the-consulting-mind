@@ -43,8 +43,8 @@ const Testimonials = () =>{
 
 
     return(
-        <section>
-            <div className="max-w-7xl mx-auto text-center">
+        <section className="section section-bg-alt">
+            <div className="section-inner max-w-7xl mx-auto text-center">
                 <h2 className="text-4xl md:text-5xl font-heading font-medium text-foreground mb-6 italic">
                     Success Speaks
                 </h2>

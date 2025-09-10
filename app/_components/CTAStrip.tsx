@@ -5,7 +5,7 @@ import { HiArrowRight } from "react-icons/hi";
 
 const CtaStrip = () => {
     return (
-        <section className="w-full bg-gradient-to-r from-primary to-primary-dark py-6">
+        <section className=" w-full bg-gradient-to-r from-primary to-primary-dark py-6">
             <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
                 {/* Text */}
                 <p className="text-white text-center md:text-left text-lg md:text-xl lg:text-2xl font-medium">

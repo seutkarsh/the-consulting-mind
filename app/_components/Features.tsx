@@ -47,8 +47,8 @@ const moreFeatures = [
     "SOP Creation","Hiring Support", "KPI & KRA Development","Sales Funnel Optimization",'Team Engagement Systems','Marketing Strategy Optimization']
 const FeaturesSection = () => {
     return (
-        <section className="py-20 w-full bg-background">
-            <div className="max-w-6xl mx-auto px-6 text-center">
+        <section id="services" className="section section-bg-alt py-20 w-full bg-background">
+            <div className="section-inner max-w-6xl mx-auto px-6 text-center">
                 {/* Heading */}
                 <h2 className="text-4xl md:text-5xl font-heading font-medium text-foreground mb-6 italic">
                     Comprehensive Solutions Tailored for Your Business
@@ -95,7 +95,13 @@ const FeaturesSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-15">
                     {
                         moreFeatures.map((feature, index) => (
-                            <span key={index} className="text-xl font-heading font-medium">{feature}</span>
+                            <span
+                                key={index}
+                                className="inline-block bg-white/90 text-foreground font-heading font-medium px-4 py-2 rounded-lg shadow-md border border-gray-200"
+                            >
+  {feature}
+</span>
+
                         ))
                     }
 

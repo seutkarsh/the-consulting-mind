@@ -12,8 +12,8 @@ const skills = [
 
 const TransformationCourse = () =>{
     return(
-        <section>
-            <div className="max-w-6xl mx-auto px-6 text-center">
+        <section className="section">
+            <div className="section-inner  mx-auto px-6 text-center">
                 <h2 className="text-4xl md:text-5xl font-heading font-medium text-foreground mb-2 italic">
                     Life Transformation Course
                 </h2>

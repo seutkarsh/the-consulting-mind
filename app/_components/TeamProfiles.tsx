@@ -16,7 +16,7 @@ const experts = [
     },
     {
         name: "Jane Smith",
-        role: "Team Trainer & Coach",
+        role: "Co-Founder",
         description:
             "I’m Amit Tiwari — a Business Consultant and Trainer with a mission to simplify business, empower teams, and inspire personal growth. I had the privilege of working as a Senior Business Consultant with India’s leading business coach, Mr. Rahul Malodia, where I served as a trusted second line, managing live consulting, training, and high-impact strategic implementations.\n" +
             "\n" +
@@ -30,8 +30,8 @@ const experts = [
 ];
 const MeetExperts = () => {
     return (
-        <section className="w-full py-20 bg-background">
-            <div className="max-w-6xl mx-auto px-6">
+        <section id="about" className="section w-full py-20 bg-background">
+            <div className="section-inner max-w-6xl mx-auto px-6">
                 {/* Heading */}
                 <h2 className="text-4xl md:text-5xl italic font-heading font-medium text-foreground mb-16 text-left">
                     Meet Our Experts

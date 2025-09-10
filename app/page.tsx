@@ -6,6 +6,8 @@ import ConsultantVSCoach from "@/app/_components/ConsultantVSCoach";
 import Testimonials from "@/app/_components/Testimonials";
 import TransformationCourse from "@/app/_components/TransformationCourse";
 import Gallery from "@/app/_components/Gallery";
+import VideoSection from "@/app/_components/VideoSection";
+import ContactForm from "@/app/_components/ContactForm";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
           <Testimonials/>
           <TransformationCourse/>
           <Gallery/>
+          <VideoSection/>
+          <ContactForm/>
       </>
   );
 }

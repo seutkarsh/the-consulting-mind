@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/_components/Navbar";
 import { Inter, Poppins } from "next/font/google";
+import Footer from "@/app/_components/Footer";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
       >
       <Navbar />
         {children}
+      <Footer/>
       </body>
     </html>
   );

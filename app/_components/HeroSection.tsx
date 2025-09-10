@@ -6,7 +6,7 @@ import {HiArrowRight} from "react-icons/hi";
 
 const Hero = () => {
     return (
-        <section className="relative h-screen w-full flex items-center justify-center">
+        <section id="home" className="section relative h-screen w-full flex items-center justify-center">
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center"
@@ -17,7 +17,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-black/50" />
 
             {/* Content */}
-            <div className="relative z-10 text-center max-w-5xl px-6">
+            <div className="section-inner relative z-10 text-center max-w-5xl px-6">
                 {/* Heading with typing animation */}
                 <h1 className="font-heading italic text-6xl md:text-7xl lg:text-8xl font-medium text-white leading-tight">
                     <TextType

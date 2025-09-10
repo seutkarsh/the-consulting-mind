@@ -43,7 +43,8 @@ const textGrid2= ["📍 On-Site & Virtual Business Consulting",
 
 const ConsultantVSCoach = ()=>{
     return(
-        <section className="py-20 w-full bg-background">
+        <section className="section py-20 w-full bg-background">
+            <div className="section-inner">
             <div className="max-w-6xl mx-auto px-6 text-center">
                 {/* Heading */}
                 <h2 className="text-4xl md:text-5xl font-heading font-medium text-foreground mb-6 italic">
@@ -134,7 +135,7 @@ const ConsultantVSCoach = ()=>{
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                     <div>
                         <h3 className="text-2xl md:text-3xl font-heading font-medium text-foreground mb-6 mt-25 italic">
-                            So Which One Is Right for You?
+                            The Consulting Mind – Business Solutions that Actually Work
                         </h3>
                         <div className="space-y-1">
                             {textGrid1.map((line, idx) => (
@@ -150,11 +151,12 @@ const ConsultantVSCoach = ()=>{
                             href="/contact-us"
                             className="inline-flex items-center justify-center bg-accent text-white font-light px-6 py-3 shadow-md hover:bg-primary transition-colors"
                         >
-                            JOIN OUR COURSES
+                            TRANSFORM WITH US
                             <HiArrowRight className="ml-2 w-5 h-5"/>
                         </Link>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     )
