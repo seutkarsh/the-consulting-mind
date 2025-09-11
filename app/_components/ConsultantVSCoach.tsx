@@ -81,6 +81,7 @@ const ConsultantVSCoach = ()=>{
                     ))}
                 </div>
 
+                <div className="overflow-x-auto max-w-full">
                 <table className="w-full border mt-10 border-gray-300 overflow-hidden text-left">
                     <thead className="bg-gray-100">
                     <tr>
@@ -117,7 +118,7 @@ const ConsultantVSCoach = ()=>{
                     </tr>
                     </tbody>
                 </table>
-
+                </div>
 
             </div>
             <div className="max-w-6xl mx-auto px-6">

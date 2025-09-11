@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="space-y-4">
                     <Link href="/">
                         <Image
-                            src="/images/logo_light.jpeg"
+                            src="/images/logo_light.png"
                             alt="Logo"
                             width={160}
                             height={50}
@@ -67,9 +67,9 @@ const Footer = () => {
                 <div>
                     <h4 className="font-heading font-semibold text-lg mb-4">Contact Us</h4>
                     <ul className="space-y-2 text-sm text-white/80">
-                        <li>Email: <a href="mailto:info@theconsultingmind.com" className="hover:text-primary transition-colors">info@yourcompany.com</a></li>
-                        <li>Phone: <a href="tel:+91-9828140012" className="hover:text-primary transition-colors">+971 50 123 4567</a></li>
-                        <li>Address: 123 Business Street, Dubai, UAE</li>
+                        <li>Email: <a href="mailto:info@theconsultingmind.in" className="hover:text-primary transition-colors">info@theconsultingmind.in</a></li>
+                        <li>Phone: <a href="tel:+91-9828140012" className="hover:text-primary transition-colors">+91-9828140012</a></li>
+                        <li>Address: 61/17, Heera Path, Rajat Path, Mansarovar, Jaipur, Rajasthan, India - 302020</li>
                     </ul>
                 </div>
 
@@ -77,19 +77,19 @@ const Footer = () => {
                 <div>
                     <h4 className="font-heading font-semibold text-lg mb-4">Follow Us</h4>
                     <div className="flex space-x-4 text-xl">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                        <a href="https://www.instagram.com/theconsultingmindby_abhishek/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                             <FaInstagram />
                         </a>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                        <a href="https://www.youtube.com/@theconsultingmind" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                             <FaYoutube />
                         </a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                        <a href="https://www.linkedin.com/in/abhishek-sharma-403580181" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                             <FaLinkedin />
                         </a>
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                             <FaFacebook />
                         </a>
-                        <a href="https://wa.me/971501234567" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                        <a href="https://www.whatsapp.com/channel/0029Vb6FSWdBA1f6QgIxkf18" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                             <FaWhatsapp />
                         </a>
                     </div>

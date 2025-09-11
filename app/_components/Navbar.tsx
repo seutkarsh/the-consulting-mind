@@ -20,14 +20,14 @@ const Navbar = () => {
     // Scrollspy: track active section
     useEffect(() => {
         const handleScroll = () => {
-            const navbarHeight = 120; // adjust based on your fixed navbar
+            const navbarHeight = 120; // adjust if needed
             let currentSection = "#home";
 
             navItems.forEach((item) => {
                 const section = document.getElementById(item.href.replace("#", ""));
                 if (section) {
                     const top = section.getBoundingClientRect().top;
-                    if (top <= navbarHeight + 5) { // 5px buffer
+                    if (top <= navbarHeight + 5) {
                         currentSection = item.href;
                     }
                 }
@@ -42,23 +42,23 @@ const Navbar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-
     return (
         <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/60 drop-shadow-2xl border-muted">
-            <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 sm:py-3 md:py-4 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="#home" className="flex items-center">
                     <Image
                         src="/images/logo_light.png"
                         alt="Consultancy Logo"
-                        width={75}
-                        height={40}
+                        width={120}
+                        height={60}
+                        className="w-16 sm:w-20 md:w-24 h-auto"
                         priority
                     />
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex space-x-8">
+                <div className="hidden md:flex space-x-4 lg:space-x-8">
                     {navItems.map((item) => (
                         <Link
                             key={item.name}
@@ -68,7 +68,7 @@ const Navbar = () => {
                                 const section = document.getElementById(item.href.replace("#", ""));
                                 if (section) {
                                     section.scrollIntoView({ behavior: "smooth" });
-                                    setActiveSection(item.href); // update active immediately
+                                    setActiveSection(item.href);
                                 }
                             }}
                             className={`font-medium transition-colors ${
@@ -82,11 +82,13 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                {/* Brochure Button */}
+                {/* Brochure Button (desktop only) */}
                 <div className="hidden md:block">
                     <Link
-                        href="/brochure"
-                        className="bg-white text-accent font-medium px-4 py-2 hover:bg-primary transition-colors"
+                        href="/brochure-theconsultingmind.pdf"
+                        download
+                        target="_blank"
+                        className="bg-white text-accent font-medium px-3 sm:px-4 py-1.5 sm:py-2 hover:bg-primary transition-colors text-sm sm:text-base"
                     >
                         Brochure
                     </Link>
@@ -97,7 +99,7 @@ const Navbar = () => {
                     className="md:hidden text-foreground"
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    {isOpen ? <X size={24} /> : <Menu size={24} />}
+                    {isOpen ? <X className="text-primary" size={24} /> : <Menu className="text-primary" size={24} />}
                 </button>
             </div>
 
@@ -120,16 +122,17 @@ const Navbar = () => {
                             className={`block font-medium transition-colors ${
                                 activeSection === item.href
                                     ? "text-primary"
-                                    : "text-foreground hover:text-primary"
+                                    : "text-white hover:text-primary"
                             }`}
                         >
                             {item.name}
                         </Link>
                     ))}
                     <Link
-                        href="/brochure"
-                        onClick={() => setIsOpen(false)}
-                        className="block w-full text-center bg-primary text-accent font-semibold px-4 py-2 rounded-lg shadow-md hover:bg-primary-dark transition-colors"
+                        href="/brochure-theconsultingmind.pdf"
+                        download
+                        target="_blank"
+                        className="block w-full text-center bg-white text-accent font-semibold px-4 py-2 shadow-md hover:bg-primary transition-colors"
                     >
                         Brochure
                     </Link>

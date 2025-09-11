@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/app/_components/Navbar";
 import { Inter, Poppins } from "next/font/google";
 import Footer from "@/app/_components/Footer";
+import StickyCTA from "@/app/_components/StickyCTA";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
       <Navbar />
         {children}
       <Footer/>
+      <StickyCTA/>
       </body>
     </html>
   );
