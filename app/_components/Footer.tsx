@@ -86,7 +86,7 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/abhishek-sharma-403580181" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                             <FaLinkedin />
                         </a>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                        <a href="https://www.facebook.com/people/The-Consulting-Mind-By-Abhishek/61578001594083/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                             <FaFacebook />
                         </a>
                         <a href="https://www.whatsapp.com/channel/0029Vb6FSWdBA1f6QgIxkf18" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
@@ -98,7 +98,7 @@ const Footer = () => {
 
             {/* Bottom copyright */}
             <div className="mt-12 border-t border-white/20 pt-6 text-center text-sm text-white/60">
-                © {new Date().getFullYear()} The Consulting Mind. All rights reserved.
+                © {new Date().getFullYear()} Business Source Consultants. All rights reserved.
             </div>
         </footer>
     );

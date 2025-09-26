@@ -15,7 +15,7 @@ const experts = [
         image: "/images/abhishek.jpg",
     },
     {
-        name: "Jane Smith",
+        name: "Amit Tiwari",
         role: "Co-Founder",
         description:
             "I’m Amit Tiwari — a Business Consultant and Trainer with a mission to simplify business, empower teams, and inspire personal growth. I had the privilege of working as a Senior Business Consultant with India’s leading business coach, Mr. Rahul Malodia, where I served as a trusted second line, managing live consulting, training, and high-impact strategic implementations.\n" +
