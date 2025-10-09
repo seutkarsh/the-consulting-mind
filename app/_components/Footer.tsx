@@ -97,7 +97,8 @@ const Footer = () => {
             </div>
 
             {/* Bottom copyright */}
-            <div className="mt-12 border-t border-white/20 pt-6 text-center text-sm text-white/60">
+            <div className="mt-12 pb-10
+             border-t border-white/20 pt-6 text-center text-sm text-white/60">
                 © {new Date().getFullYear()} Business Source Consultants. All rights reserved.
             </div>
         </footer>

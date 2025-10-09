@@ -47,6 +47,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 sm:py-3 md:py-4 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="#home" className="flex items-center">
+                    <div className="flex flex-col justify-center items-center">
                     <Image
                         src="/images/logo_light.png"
                         alt="Consultancy Logo"
@@ -55,6 +56,8 @@ const Navbar = () => {
                         className="w-16 sm:w-20 md:w-24 h-auto"
                         priority
                     />
+                        <h2 className="text-white">By Business Source Consultants</h2>
+                    </div>
                 </Link>
 
                 {/* Desktop Menu */}
