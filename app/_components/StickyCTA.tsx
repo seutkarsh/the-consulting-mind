@@ -26,7 +26,7 @@ const StickyCTA = () => {
 
                 {/* WhatsApp Icon (right) */}
                 <a
-                    href="https://wa.me/919587488012"
+                    href="https://wa.me/919828140012"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center w-12 h-12 rounded-full bg-green-500 text-white animate-bounce"
