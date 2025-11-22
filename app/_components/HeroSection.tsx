@@ -36,7 +36,7 @@ const Hero = () => {
                 {/* CTA */}
                 <div className="mt-20">
                     <Link
-                        href="/contact-us"
+                        href="#contact-us"
                         className="inline-flex items-center bg-white text-accent font-light px-6 py-3 shadow-md hover:bg-primary transition-colors"
                     >
                         BOOK FREE STRATEGY CALL
